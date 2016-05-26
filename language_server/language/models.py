@@ -2,7 +2,8 @@ from django.db import models
 
 # Create your models here.
 
-parts_of_speech = ('Verb', )
+parts_of_speech = ('Verb', 'Noun', 'Adjective', 'Adverb', 'Pronoun',
+                   'Preposition', 'Conjunction', 'Interjection')
 
 
 class Word(models.Model):
